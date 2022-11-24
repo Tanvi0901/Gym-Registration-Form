@@ -1,0 +1,113 @@
+body{
+        font-family: 'Baloo 2', cursive;
+        margin:0px;
+        padding:0px;
+        background:url('bg.jpg');
+        color:white;
+        
+    }
+    .left{
+        display:inline-block;
+        /* border:2px solid red; */
+        position:absolute;
+        left:60px;
+        top: 20px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .left div{
+        line-height: 30px;
+        margin:0px;
+        text-align: center;
+        font-size: 20px;
+        color:white;
+    }
+    .left img{
+        filter:invert(100%);
+        width:110px;
+        opacity: 0.5;
+        z-index:-1;
+        border-radius: 100%;
+    }
+    .mid{
+        display:block;
+        margin:20px auto;
+        width:55%;
+        /* border:2px solid green; */
+    }
+    .right{
+        /* border:2px solid yellow; */
+        display:inline-block; 
+        position:fixed;
+        right:34px;
+        top:20px;
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size: 20px;
+    }
+    .navbar li a{
+        color:white;
+        text-decoration: none;
+        padding:34px 23px;
+    }
+    .navbar li a:hover, .navbar li a:active{
+        text-decoration: underline;
+        color:grey;
+    }
+    .btn{
+        margin:0px 9px;
+        color:white;
+        background-color: black;
+        padding:4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 23px;
+        cursor:pointer;
+        font-family: 'Baloo 2', cursive;
+    }
+    .btn:hover{
+        background-color: rgb(61, 58, 58);
+    }
+    .container{
+        border: 2px solid grey;
+        margin:60px 80px; 
+        padding:75px;
+        width:33%;
+        border-radius: 28px;
+    }
+    .form-group input{
+        text-align: center;
+        display:block;
+        width:290px;
+        padding:1px;
+        border:2px solid black;
+        margin: 11px auto;
+        border-radius: 8px;
+        font-size: 25px;
+        font-family: 'Baloo 2', cursive;
+    }
+    .form-check{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Baloo 2', cursive;
+    }
+    .form-check-input:hover{
+        cursor: pointer;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display:block;
+        width:80%;
+        margin:auto;
+    }
+    #container.slot{
+        color: aqua;
+    }
+    .formerror{
+        color: red;
+    }
